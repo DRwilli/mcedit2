@@ -28,7 +28,11 @@ install:
 
   - pip install git+http://github.com/pyinstaller/pyinstaller
 
+  # Install pyside from the homebrew boneyard
+  - brew tap homebrew/versions
+  - brew tap homebrew/boneyard
   - brew install pyside pyside-tools
+
   # Install mcedit.
   - python setup.py develop
 
