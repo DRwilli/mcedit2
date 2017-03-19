@@ -39,6 +39,9 @@ install:
   - brew install cartr/qt4/qt
   - pip install pyside
 
+  # Where is plugins
+  - tree /usr/local/lib/python2.7/site-packages/pyside*
+
   # - brew install pyside pyside-tools
 
   # Install mcedit.
